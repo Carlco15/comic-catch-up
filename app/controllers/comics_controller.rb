@@ -1,11 +1,11 @@
 class ComicsController < ApplicationController
   before_action :set_comic, only: [:show, :edit, :update, :destroy]
-  before_action :signed_in_user
+  # before_action :signed_in_user
 
   # GET /comics
   # GET /comics.json
   def index
-    @comics = current_user.comics
+    @comics = Comic.all
     # @comics = Comic.all
   end
 

@@ -12,7 +12,7 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-    @comics = Comic.all
+    @comics = current_user.comics
   end
 
   # GET /users/new
