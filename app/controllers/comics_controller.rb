@@ -1,10 +1,12 @@
 class ComicsController < ApplicationController
   before_action :set_comic, only: [:show, :edit, :update, :destroy]
+  before_action :signed_in_user
 
   # GET /comics
   # GET /comics.json
   def index
-    @comics = Comic.all
+    @comics = current_user.comics
+    # @comics = Comic.all
   end
 
   # GET /comics/1
@@ -19,6 +21,12 @@ class ComicsController < ApplicationController
 
   # GET /comics/1/edit
   def edit
+  end
+
+  # Need to make this add comic ids to the current user!!!!!!!!
+  def add
+    @comic = Comic.push
+    @comic.user = current_user
   end
 
   # POST /comics
