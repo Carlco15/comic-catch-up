@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  # get 'static_pages/home'
+
+  # get 'static_pages/spotlight'
+
+  root to: 'static_pages#home'
+  match '/spotlight', to: 'static_pages#spotlight', via: 'get'
+
   resources :users
   resources :comics
   # The priority is based upon order of creation: first created -> highest priority.
