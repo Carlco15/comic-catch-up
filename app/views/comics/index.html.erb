@@ -2,14 +2,14 @@
 
 <h1>Complete Comic List</h1>
 
-<table>
+
+<table class="table table-hover">
   <thead>
     <tr>
       <th>Title</th>
+      <th>Year</th>
+      <th>Issues</th>
       <th colspan="3"></th>
-      <th>Show</th>
-      <th>Edit</th>
-      <th>Destroy</th>
     </tr>
   </thead>
 
@@ -17,6 +17,8 @@
     <% @comics.each do |comic| %>
       <tr>
         <td><%= comic.title %></td>
+        <td><%= comic.year %></td>
+        <td><%= comic.issues %></td>
         <td><%= link_to 'Show', comic %></td>
         <td><%= link_to 'Edit', edit_comic_path(comic) %></td>
         <td><%= link_to 'Destroy', comic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
