@@ -18,8 +18,8 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: marc_comic/test
+  database: marc_comic_test
 
 production:
   <<: *default
-  database: marc_comic/production
+  database: marc_comic_production
