@@ -18,6 +18,8 @@ Rails.application.routes.draw do
 
   get '/comics/:id/add', to: 'comics#add', as: 'currentcomic'
 
+  get '/comics/:id/read', to: 'comics#read', as: 'currentcomicread'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

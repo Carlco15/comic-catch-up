@@ -12,5 +12,5 @@
 
 <% @comics.each do |comic| %>
   <br><%= comic.title %> |
-  <td><%= link_to 'Read', comic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  <td><%= link_to 'Show', comic %></td>
 <% end %>

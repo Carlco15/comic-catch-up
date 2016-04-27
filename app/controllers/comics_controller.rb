@@ -31,6 +31,10 @@ class ComicsController < ApplicationController
     # @comic.user = current_user
   end
 
+  def read
+    @comics = current_user.comics.delete(Comic.find(params[:id]))
+  end
+
   # POST /comics
   # POST /comics.json
   def create
