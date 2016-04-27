@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'static_pages/captain_america'
+
+  get 'static_pages/thor'
+
+  get 'static_pages/hulk'
+
+  get 'static_pages/ant_man'
+
+  get 'static_pages/black_panther'
+
+  get 'static_pages/spider_man'
+
+  get 'static_pages/iron_man'
+
   resources :sessions, only:[:new, :create, :destroy, :add]
 
   match '/signup',  to: 'users#new',            via: 'get'
@@ -12,6 +26,13 @@ Rails.application.routes.draw do
 
   root to: 'static_pages#home'
   match '/spotlight', to: 'static_pages#spotlight', via: 'get'
+  match '/iron_man', to: 'static_pages#iron_man', via: 'get'
+  match '/captain_america', to: 'static_pages#captain_america', via: 'get'
+  match '/thor', to: 'static_pages#thor', via: 'get'
+  match '/hulk', to: 'static_pages#hulk', via: 'get'
+  match '/ant_man', to: 'static_pages#ant_man', via: 'get'
+  match '/black_panther', to: 'static_pages#black_panther', via: 'get'
+  match '/spider_man', to: 'static_pages#spider_man', via: 'get'
 
   resources :users
   resources :comics
