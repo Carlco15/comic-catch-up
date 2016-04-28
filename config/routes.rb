@@ -45,6 +45,8 @@ Rails.application.routes.draw do
 
   get '/comics/:id', to: 'static_pages#find', as: 'findcaptainamerica'
 
+  get '/comics/:id', to: 'static_pages#find', as: 'findthor'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
