@@ -44,4 +44,14 @@ class StaticPagesController < ApplicationController
     @comic26 = Comic.find(26)
     @comic27 = Comic.find(27)
   end
+
+  def ant_man
+    @comic28 = Comic.find(28)
+    @comic29 = Comic.find(29)
+    @comic30 = Comic.find(30)
+    @comic31 = Comic.find(31)
+    @comic32 = Comic.find(32)
+    @comic33 = Comic.find(33)
+    @comic34 = Comic.find(34)
+  end
 end
