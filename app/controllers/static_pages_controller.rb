@@ -19,10 +19,10 @@ class StaticPagesController < ApplicationController
   def captain_america
     @comic8 = Comic.find(8)
     @comic9 = Comic.find(9)
-    @comic9 = Comic.find(10)
-    @comic9 = Comic.find(11)
-    @comic9 = Comic.find(12)
-    @comic9 = Comic.find(13)
-    @comic9 = Comic.find(14)
+    @comic10 = Comic.find(10)
+    @comic11 = Comic.find(11)
+    @comic12 = Comic.find(12)
+    @comic13 = Comic.find(13)
+    @comic14 = Comic.find(14)
   end
 end
