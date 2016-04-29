@@ -19,9 +19,7 @@ Add comics to your reading list to your hearts content. Once you've finished rea
 #Future Addons:
 
 - Fill out the database
+  -Add supplemental reading
 - Add Events
 - Add Villans
-- Add thumbnails for the coimics
-
-
-<tt>rake doc:app</tt>.
+- Add thumbnails for the comics
