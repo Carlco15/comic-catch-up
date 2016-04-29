@@ -1,11 +1,13 @@
 <p id="notice"><%= notice %></p>
 
+<div class = "showtext">
 <p>
   <strong>Title:</strong>
   <%= @comic.title %>  |
   <%= @comic.year %>  |
   <%= @comic.issues %>
 </p>
+</div>
 
 <%-# link_to 'Edit', edit_comic_path(@comic) %>
 <%= link_to 'Back', comics_path %> |
