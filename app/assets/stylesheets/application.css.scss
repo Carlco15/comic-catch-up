@@ -5,6 +5,63 @@
 @import "bootstrap.scss";
 @import "superhero.scss";
 
+.panther-img {
+  background: url('http://x.annihil.us/u/prod/marvel/i/mg/9/20/56cb380216fcd/rotator_xlarge_uncanny.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.iron-img {
+  background: url('http://www.pixelstalk.net/wp-content/uploads/2015/12/Iron-Man-comics-Tony-Stark.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.cap-img {
+  background: url('https://images6.alphacoders.com/372/372956.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.thor-img {
+  background: url('http://www.imgbase.info/images/safe-wallpapers/miscellaneous/comics/36446_comics_thor.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.hulk-img {
+  background: url('http://img1.cfstatic.com/wallpapers/97d44517f4bb0db507bbf34acb8e444e_large.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.ant-img {
+  background: url('https://images.alphacoders.com/540/540292.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.spider-img {
+  background: url('http://theanimalglobe.com/wp-content/uploads/Spiderman-Comic-Wallpaper-11.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 body {
   padding-top: $navbar-height + 10px;
 }
@@ -17,6 +74,8 @@ body {
   a.btn + a.btn {
     margin-right: 8px;
   }
+
+  border-bottom: 1px;
 }
 
 input[type="radio"], input[type="checkbox"] {
