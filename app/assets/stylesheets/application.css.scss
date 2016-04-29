@@ -61,6 +61,23 @@
   background-color: #ADD8E6;
 }
 
+.list-img {
+  background: url('http://i.imgur.com/RqijJSe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: black;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #800000 ;
+}
+
 body {
   padding-top: $navbar-height + 10px;
 }
