@@ -9,7 +9,7 @@ Add comics to your reading list to your hearts content. Once you've finished rea
 
 #Technologies Used:
 
-- Languages: HTML, CSS, Ruby on Rails, Bootstrap,
+- HTML, CSS, Ruby on Rails, Bootstrap, PostgreSQL
 - Project Planning and User Stories: A notebook I had in my bag.
 - Sublime Text 3
 
