@@ -1,28 +1,27 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Comic Catch Up
 
-Things you may want to cover:
+#Overview:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Add comics to your reading list to your hearts content. Once you've finished reading one mark it off. Have a favorite super hero? Go to their page and learn what the reading order is so you can catch up to the current serialization.
 
 
-Please feel free to use a different markup language if you do not plan to run
+#Technologies Used:
+
+- Languages: HTML, CSS, Ruby on Rails, Bootstrap,
+- Project Planning and User Stories: A notebook I had in my bag.
+- Sublime Text 3
+
+#Wireframe & User Stories:
+<http://imgur.com/a/sCe5z>
+
+#Future Addons:
+
+- Fill out the database
+- Add Events
+- Add Villans
+- Add thumbnails for the coimics
+
+
 <tt>rake doc:app</tt>.
